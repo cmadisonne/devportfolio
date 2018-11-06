@@ -1,3 +1,100 @@
 .idea/
 *.iml
 
+myprojectenv/lib/python3.5/site-packages/pkg_resources/__pycache__/
+myprojectenv/lib/python3.5/site-packages/pkg_resources/sxtern/__pycache__/
+portfolioApp/__pycache__/admin.cpython-35.pyc portfolioApp/__pycache__/admin.cpython-36.pyc portfolioApp/__pycache__/forms.cpython-35.pyc portfolioApp/__pycache__/forms.cpython-36.pyc portfolioApp/__pycache__/__init__.cpython-35.pyc portfolioApp/__pycache__/__init__.cpython-36.pyc portfolioApp/__pycache__/models.cpython-35.pyc portfolioApp/__pycache__/models.cpython-36.pyc portfolioApp/__pycache__/views.cpython-35.pyc portfolioApp/__pycache__/views.cpython-36.pyc portfolioProject/__pycache__/__init__.cpython-35.pyc portfolioProject/__pycache__/__init__.cpython-36.pyc portfolioProject/__pycache__/settings.cpython-35.pyc portfolioProject/__pycache__/settings.cpython-36.pyc portfolioProject/__pycache__/urls.cpython-35.pyc portfolioProject/__pycache__/urls.cpython-36.pyc portfolioProject/__pycache__/wsgi.cpython-35.pyc portfolioProject/__pycache__/wsgi.cpython-36.pyc
+myprojectenv/lib/python3.5/site-packages/pkg_resources/extern/__pycache__/
+myprojectenv/lib/python3.5/site-packages/gunicorn/__pycache__
+myprojectenv/lib/python3.5/site-packages/django/template/__pycache__
+# Created by https://www.gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+myprojectenv/lib/python3.5/site-packages/django/template/__pycache__/
+myprojectenv/lib/python3.5/site-packages/gunicorn/__pycache__/

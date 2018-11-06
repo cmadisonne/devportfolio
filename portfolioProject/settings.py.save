@@ -28,8 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '68.183.96.229',
     '127.0.0.1',
-    'www.madisonnecooper.com',
-    'madisonnecooper.com',
+    '
 ]
 
 
