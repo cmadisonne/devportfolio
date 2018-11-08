@@ -1,6 +1,5 @@
 .home{
-    background-color:dimgrey ;
-    background-image: url("/static/wallpaper.jpg");
+    background-color:black ;
     padding-top: 15px;
     height: 100%;
 }
@@ -8,20 +7,27 @@
 .intro{
     vertical-align: text-bottom;
     margin: 30px;
-    background-color: grey;
     opacity: 0.8;
     border: 1px solid white;
     padding: 8px;
     text-align: center;
-    filter: alpha(opacity=100);
 }
 
 .intro p{
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .intro h3{
     font-weight: bold;
-    color: black;
+    color: white;
 }
+
+.intro span {
+    color: #6DDCBD;
+}
+
+.pdf {
+    text-align: center;
+}
+
