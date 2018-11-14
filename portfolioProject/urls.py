@@ -23,4 +23,5 @@ urlpatterns = [
     path('projects/', views.project, name='project'),
     path('contact/', views.contactForm, name='contact'),
     path('admin/', admin.site.urls),
+    path('tictactoe/', views.tictactoe, name='tictactoe')
 ]

@@ -15,6 +15,9 @@ def project(request):
 def contact(request):
     return render(request, 'portfolioApp/contact.html')
 
+def tictactoe(request):
+    return render(request, 'Tictactoe/t3.html')
+
 def contactForm(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
